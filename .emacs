@@ -18,8 +18,9 @@
 
 ;;;;;;;;;;;;;;;
 ;; mac keyboard
-(setq mac-command-modifier 'meta)
-;(setq mac-command-modifier 'control)
+;(setq mac-command-modifier 'meta)
+;(setq mac-option-modifier 'control)
+;(setq mac-control-modifier 'super)
 
 
 ;;;;;;;;;;;;;;;
