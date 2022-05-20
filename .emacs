@@ -26,7 +26,7 @@
 ;;;;;;;;;;;;;;;
 ;; general settings
 (setq default-frame-alist
-'((height . 62) (width . 206) ))
+'((height . 56) (width . 120) ))
 
 (tool-bar-mode -1)
 ;(menu-bar-mode -1)

@@ -16,7 +16,7 @@ set hlsearch
 set incsearch
 set ignorecase
 "set cursorcolum
-set cursorline
+"set cursorline
 set laststatus=2
 set display+=lastline
 "set path+=**
