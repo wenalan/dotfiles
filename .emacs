@@ -3,34 +3,37 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(ansi-color-faces-vector
-   [default default default italic underline success warning error])
- '(ansi-color-names-vector
-   ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
  '(custom-enabled-themes '(leuven)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:height 140 :family "Menlo")))))
+ '(default ((t (:height 120 :family "Menlo")))))
 
 
 ;;;;;;;;;;;;;;;
 ;; mac keyboard
-(setq mac-command-modifier 'meta)
-(setq mac-right-command-modifier 'control)
-(setq mac-option-modifier 'super)
-(setq mac-right-option-modifier 'meta)
+;;(setq mac-command-modifier 'meta)
+;;(setq mac-right-command-modifier 'control)
+;;(setq mac-option-modifier 'super)
+;;(setq mac-right-option-modifier 'meta)
+
+
+;;;;;;;;;;;;;;;
+;; org shortcut for chromebook
+(global-set-key (kbd "M-p") 'org-move-subtree-up)
+(global-set-key (kbd "M-n") 'org-move-subtree-down)
+
 
 ;;;;;;;;;;;;;;;
 ;; general settings
-(setq default-frame-alist
-'((height . 56) (width . 120) ))
-(set-face-attribute 'default nil :height 140) ; 100 -> 10pt
+;(setq default-frame-alist
+;'((height . 56) (width . 120) ))
+;(set-face-attribute 'default nil :height 120) ; 100 -> 10pt
 
 (tool-bar-mode -1)
-;(menu-bar-mode -1)
+(menu-bar-mode -1)
 (setq linum-format "%d ")
 
 (setq-default indent-tabs-mode nil)
