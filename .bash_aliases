@@ -2,7 +2,7 @@ alias ll='ls -Alh'
 alias ls='ls -G'
 alias grep='grep --color=auto'
 
-alias gs='git status -uno'
+alias gst='git status -uno'
 alias gca='git commit --amend --no-edit'
 alias gcm='git commit -m'
 alias gau='git add -u'
@@ -17,3 +17,5 @@ alias glg='git log --all --decorate --oneline --graph -10'
 alias gg='git grep'
 
 alias g++='g++ -g -std=c++17'
+
+alias fd=fdfind
