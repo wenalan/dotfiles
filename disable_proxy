@@ -1,1 +1,3 @@
-export ALL_PROXY=
+# use source or . to invoke this file
+unset https_proxy
+unset http_proxy
