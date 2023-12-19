@@ -1,17 +1,17 @@
 pushd ~
 
-rm .bashrc
-ln -s ~/src/dotfiles/.bashrc ~/.bashrc
-ln -s ~/src/dotfiles/.bash_aliases ~/.bash_aliases
+mv .bashrc .bashrc_bak
+ln -s ~/src/github/dotfiles/.bashrc ~/.bashrc
+ln -s ~/src/github/dotfiles/.bash_aliases ~/.bash_aliases
 
-rm .zshrc
-ln -s ~/src/dotfiles/.zshrc ~/.zshrc
+mv .zshrc .zshrc_bak
+ln -s ~/src/github/dotfiles/.zshrc ~/.zshrc
 
-rm .vimrc
-ln -s ~/src/dotfiles/.vimrc ~/.vimrc
+mv .vimrc .vimrc_bak
+ln -s ~/src/github/dotfiles/.vimrc ~/.vimrc
 
-rm .emacs
-ln -s ~/src/dotfiles/.emacs ~/.emacs
+mv .emacs .emacs_back
+ln -s ~/src/github/dotfiles/.emacs ~/.emacs
 
 popd
 

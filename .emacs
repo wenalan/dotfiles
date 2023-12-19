@@ -35,8 +35,10 @@
 ;(set-face-attribute 'default nil :height 120) ; 100 -> 10pt
 
 (tool-bar-mode -1)
-(menu-bar-mode -1)
+;(menu-bar-mode -1)
 (setq linum-format "%d ")
+
+(setq inhibit-splash-screen t)
 
 (setq-default indent-tabs-mode nil)
 (setq tab-width 2)
@@ -46,6 +48,8 @@
 
 ;;;;;;;;;;;;;;;
 ;; org mode
+;(setq org-startup-indented t)
+
 (setq org-todo-keywords
       '((sequence "tracking(t!)" "suspending(s!)" "|" "done(d!)" "cancelled(a@/!)")))
 
@@ -57,5 +61,5 @@
 ))
 
 (global-set-key (kbd "C-c a") 'org-agenda)
-(setq org-agenda-files (list "~/Documents/todo/test.org"))
+(setq org-agenda-files (list "~/Desktop/desk/todo.org"))
 
