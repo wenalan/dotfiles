@@ -1,3 +1,0 @@
-# use source or . to invoke this file
-export https_proxy="192.168.5.150:8080"
-export http_proxy=$https_proxy

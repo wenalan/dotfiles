@@ -1,13 +1,13 @@
 pushd ~
 
-mv .bashrc .bashrc_bak
+mv .bashrc .bashrc_back
 ln -s ~/src/github/dotfiles/.bashrc ~/.bashrc
 ln -s ~/src/github/dotfiles/.bash_aliases ~/.bash_aliases
 
-mv .zshrc .zshrc_bak
+mv .zshrc .zshrc_back
 ln -s ~/src/github/dotfiles/.zshrc ~/.zshrc
 
-mv .vimrc .vimrc_bak
+mv .vimrc .vimrc_back
 ln -s ~/src/github/dotfiles/.vimrc ~/.vimrc
 
 mv .emacs .emacs_back
