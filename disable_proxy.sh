@@ -4,4 +4,4 @@
 unset ALL_PROXY
 
 # git
-mv ~/.ssh/config ~/.ssh/config.disable
+mv ~/.ssh/config ~/.ssh/config_back
