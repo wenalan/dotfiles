@@ -56,9 +56,9 @@ autocmd BufWritePre * :%s/\s\+$//e
 "set bg=dark
 "colorscheme ron
 "colorscheme molokai
-colorscheme slate
+"colorscheme slate
 "colorscheme evening
-"colorscheme desert
+colorscheme desert
 "colorscheme habamax
 
 
