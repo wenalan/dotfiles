@@ -54,11 +54,7 @@ autocmd FileType python setlocal tabstop=2 shiftwidth=2 softtabstop=2 textwidth=
 autocmd BufWritePre * :%s/\s\+$//e
 
 "set bg=dark
-"colorscheme ron
-"colorscheme molokai
-"colorscheme slate
-"colorscheme evening
-colorscheme desert
-"colorscheme habamax
+"colorscheme delek
+colorscheme pablo
 
 
