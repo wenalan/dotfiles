@@ -15,6 +15,9 @@ ln -s ~/src/github/dotfiles/.zshrc ~/.zshrc
 mv .vimrc .vimrc_back
 ln -s ~/src/github/dotfiles/.vimrc ~/.vimrc
 
+mv .config/nvim/init.vim .config/nvim/init.vim_back
+ln -s ~/src/github/dotfiles/init.nvim ~/.config/nvim/init.vim
+
 mv .emacs .emacs_back
 ln -s ~/src/github/dotfiles/.emacs ~/.emacs
 
