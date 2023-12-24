@@ -19,3 +19,4 @@ alias vi=nvim
 
 alias cdd='cd ~/src/github/dotfiles'
 alias cdp='cd ~/src/github/cpp_codes'
+alias cdps='cd ~/src/github/cpp_codes/stl'

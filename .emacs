@@ -3,8 +3,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-enabled-themes '(leuven)))
- ;; '(custom-enabled-themes '(tango-dark))
+ '(custom-enabled-themes '(misterioso))
+ '(tool-bar-mode nil))
  ;; '(package-selected-packages '(diffview)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -35,8 +35,9 @@
 ;(set-face-attribute 'default nil :height 120) ; 100 -> 10pt
 
 (tool-bar-mode -1)
-;(menu-bar-mode -1)
+(menu-bar-mode -1)
 (setq linum-format "%d ")
+(global-display-line-numbers-mode 1)
 
 (setq inhibit-splash-screen t)
 
