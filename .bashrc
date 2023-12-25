@@ -122,4 +122,4 @@ ulimit -c unlimited
 
 # init command
 export ALL_PROXY="socks5://192.168.5.150:2013"
-tmux
+#tmux

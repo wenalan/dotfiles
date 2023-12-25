@@ -16,6 +16,7 @@ alias gg='git grep'
 alias fd=fdfind
 
 alias vi=nvim
+alias em='emacs -nw'
 
 alias cdd='cd ~/src/github/dotfiles'
 alias cdp='cd ~/src/github/cpp_codes'
