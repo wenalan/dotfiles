@@ -44,6 +44,7 @@
 (setq-default indent-tabs-mode nil)
 (setq tab-width 2)
 
+(xterm-mouse-mode 1)
 ;(which-key-mode t)
 
 
