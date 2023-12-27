@@ -8,16 +8,16 @@ alias gc='git checkout'
 alias gb='git branch'
 alias gp='git push'
 alias gd='git diff'
-alias gdt='git difftool --tool=nvimdiff'
+#alias gdt='git difftool --tool=nvimdiff'
+alias gdt='git difftool --tool=vimdiff'
 alias gl='git log --oneline -10'
 alias glg='git log --all --decorate --oneline --graph -10'
 alias gg='git grep'
 
 alias fd=fdfind
 
-alias vi=nvim
-alias em='emacs -nw'
+#alias vi=nvim
+#alias em='emacs -nw'
 
 alias cdd='cd ~/src/github/dotfiles'
 alias cdp='cd ~/src/github/cpp_codes'
-alias cdps='cd ~/src/github/cpp_codes/stl'

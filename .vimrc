@@ -55,6 +55,6 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 "set bg=dark
 "colorscheme delek
-colorscheme pablo
+"colorscheme pablo
 
 
