@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/alan/prj/v10/alan_project/aggregator'
+let g:netrw_dirhist_4='/home/alan/prj/v10/alan_project'
+let g:netrw_dirhist_3='/home/alan/prj/v10/alan_project/common'
+let g:netrw_dirhist_2='/home/alan/prj/v10/alan_project'
+let g:netrw_dirhist_1='/home/alan/prj/v10/alan_project/common'
+let g:netrw_dirhist_0='/home/alan/prj/v10/alan_project'
+let g:netrw_dirhist_9='/home/alan/prj/v10/alan_project/clients/price_bands'
+let g:netrw_dirhist_8='/home/alan/prj/v10/alan_project/clients'
+let g:netrw_dirhist_7='/home/alan/prj/v10/alan_project/clients/volume_bands'
+let g:netrw_dirhist_6='/home/alan/prj/v10/alan_project/clients'

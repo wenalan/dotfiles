@@ -88,7 +88,7 @@ fi
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ll='ls -alF'
+alias ll='ls -lFh'
 alias la='ls -A'
 alias l='ls -CF'
 
@@ -123,3 +123,5 @@ ulimit -c unlimited
 # init command
 export ALL_PROXY="socks5://192.168.5.150:2013"
 #tmux
+
+export PATH=/home/alan/opt/bin:/home/alan/install/clangd_18.1.3/bin:$PATH
