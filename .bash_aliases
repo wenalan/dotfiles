@@ -1,3 +1,5 @@
+alias ll='ls -lFh'
+
 alias gs='git status'
 alias gsu='git status -uno'
 alias gca='git commit --amend --no-edit'
